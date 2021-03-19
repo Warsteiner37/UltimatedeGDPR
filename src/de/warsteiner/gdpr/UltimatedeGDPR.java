@@ -44,7 +44,7 @@ public class UltimatedeGDPR extends org.bukkit.plugin.java.JavaPlugin  {
 			loc = new LocationHandler();
 		     
 			if(loc.getfile() == null) {
-				loc.create();
+				loc.create(); asd
 			} else {
 				loc.load();
 			}
