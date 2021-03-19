@@ -1,0 +1,160 @@
+ 
+Plugin:
+
+  #do not change this
+  Version: "v1.0"
+  
+  Save_In: "plugins/UltimatedeGDPR"
+  
+  Blind: true
+  
+  Commands: 
+    - "ultimategdpr"
+  
+  #
+  # Different Modes:
+  #
+  # GUI - Click options in a gui to accept
+  #
+  # TEXT_MESSAGE - Click message in text 
+  #
+ 
+  
+  Mode: "GUI"
+
+Tab:
+
+   SetSpawn: "setspawn"
+
+Permissions:
+ 
+   Command: "ult.admin"
+ 
+Messages:
+
+   Prefix: "&8[&aSystem&8] &7"
+   
+   Usage: "&7Use&8: &c/ultimategdpr <setspawn>"
+   
+   No_Perm: "&cYou dont have permissions!"
+   
+   Set: "&aYou have set the spawn!"
+   
+   Kick_Message: "&cPlease accept the GDPR."
+   
+   Accepted: "&aYou accepted our GDPR. Thank you! "
+   
+   Chat: "&cYou cant use the chat right now!"
+
+Text_Message:
+
+   ClearChat: true
+
+   Decline_Button:
+
+     Hover: "&cClick here to decline"
+     
+     Display: "&8[&c&lDecline&8]"
+     
+     Enabled: true
+
+   Accept_Button:
+   
+     Hover: "&aClick here to accept"
+     
+     Display: "&8[&a&lAccept&8]"
+
+     Enabled: true
+
+   Text:
+     - "&7Welcome&8, &b<name>&7."
+     - "&7Please accept the GDPR of our Server to play!"
+     - "&8"
+     - "&7Please choose an option&8:"
+     
+   
+ 
+GUI:
+ 
+   GUI_Name: "&aAccept GDPR"
+
+   GUI_Size: 3
+   
+   Items:
+
+      Decline:
+ 
+       Material: "RED_DYE"
+ 
+       Enabled: true
+       
+       Display: "&cDecline Our GDPR"
+ 
+       Slot: 15
+ 
+      Accept:
+ 
+       Material: "LIME_DYE"
+
+       Enabled: true
+       
+       Display: "&aAccept Our GDPR"
+ 
+       Slot: 11
+       
+      Info_Item:
+ 
+       Material: "BOOK"
+       
+       Enabled: true
+       
+       Display: "&7Informations"
+       
+       Lore:
+         - "&8&m-----------------------"
+         - "&7Watch our Website here&8:"
+         - "&ehttps://ultimate-plugins.de"
+ 
+       Slot: 13 
+ 
+   GUI_PlaceHolders: 
+     - "BLACK_STAINED_GLASS_PANE:0:&7"  
+     - "BLACK_STAINED_GLASS_PANE:1:&7"  
+     - "BLACK_STAINED_GLASS_PANE:2:&7"  
+     - "BLACK_STAINED_GLASS_PANE:3:&7"  
+     - "BLACK_STAINED_GLASS_PANE:4:&7"  
+     - "BLACK_STAINED_GLASS_PANE:5:&7"  
+     - "BLACK_STAINED_GLASS_PANE:6:&7"  
+     - "BLACK_STAINED_GLASS_PANE:7:&7"  
+     - "BLACK_STAINED_GLASS_PANE:8:&7"  
+     - "BLACK_STAINED_GLASS_PANE:9:&7"  
+     - "BLACK_STAINED_GLASS_PANE:17:&7"
+     - "BLACK_STAINED_GLASS_PANE:18:&7"    
+     - "BLACK_STAINED_GLASS_PANE:19:&7"
+     - "BLACK_STAINED_GLASS_PANE:20:&7"  
+     - "BLACK_STAINED_GLASS_PANE:21:&7"  
+     - "BLACK_STAINED_GLASS_PANE:22:&7"  
+     - "BLACK_STAINED_GLASS_PANE:23:&7"  
+     - "BLACK_STAINED_GLASS_PANE:24:&7"  
+     - "BLACK_STAINED_GLASS_PANE:25:&7"  
+     - "BLACK_STAINED_GLASS_PANE:26:&7"     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
