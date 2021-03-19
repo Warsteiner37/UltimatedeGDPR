@@ -1,9 +1,6 @@
  
 Plugin:
-
-  #do not change this
-  Version: "v1.0"
-  
+ 
   Save_In: "plugins/UltimatedeGDPR"
   
   Blind: true
